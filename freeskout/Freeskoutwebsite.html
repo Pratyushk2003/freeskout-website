@@ -1,0 +1,563 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="Aspose.Words for .NET 23.7.0" />
+  <title>Freeskout</title>
+    </head>
+    <body>
+
+
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <img src="freeskout.png" alt="Logo">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#">BRANDS</a></li>
+                <li><a href="#">INFLUENCERS</a></li>
+                <li><a href="#">PRICING</a></li>
+                <li><a href="#">BLOGS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+
+
+<br>
+
+<br>
+<br>
+<div class="header-content">
+  <h1 id="headerText">Discover. Connect.<br>Collaborate.<br><br><span style="font-size: 20px;">An ecosystem for Social media Influencers and Brands.</span><br>
+    <a href="#" id="influencerButton">
+      <button onclick="redirectToInfluencerPage()" style="background-color: #00FF7F; border-radius: 10px; height: 50px; width: 200px; border-color: #00FF7F; margin-right: 100px">I'M AN INFLUENCER</button>
+    </a>
+    <a href="#" id="brandButton">
+      <button onclick="animateBrandButton()" style="background-color: #00FF7F; border-radius: 10px; height: 50px; width: 200px; border-color: #00FF7F;">I'M A BRAND</button>
+    </a>
+  </h1>
+  <img src="top-3.png" alt="Logo" id="headerImage" style="margin-right: 150px;">
+</div>
+
+<script>
+  // JavaScript functions for button clicks
+  function redirectToInfluencerPage() {
+    // Replace "#" with the URL for the influencer page
+    window.location.href = "#";
+  }
+
+  // Function to animate the Brand button and display the image
+  function animateBrandButton() {
+    const brandBtn = document.getElementById("brandButton");
+    const headerImage = document.getElementById("headerImage");
+
+    // Disable the button to prevent multiple clicks
+    brandBtn.disabled = true;
+
+    // Slide in the headerText (Discover. Connect. Collaborate.)
+    const headerText = document.getElementById("headerText");
+    headerText.style.animation = "slideInAnimation 2s ease-in-out";
+
+    // Slide in the buttons (I'M AN INFLUENCER and I'M A BRAND)
+    const influencerButton = document.getElementById("influencerButton");
+    influencerButton.style.animation = "fadeInAnimation 1s ease-in-out";
+    brandBtn.style.animation = "fadeInAnimation 1s ease-in-out"; // Fix the redeclaration issue
+
+    // Show the image after the button animation completes
+    setTimeout(function() {
+      headerImage.style.display = "block";
+      headerImage.classList.add("animated-image");
+    }, 1000); // 1000 milliseconds = 1 second
+  }
+</script>
+      <div class="waveWrapper waveAnimation">
+        
+        <div class="waveWrapperInner bgTop">
+
+          <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgMiddle">
+          <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+        </div>
+        <div class="waveWrapperInner bgBottom">
+          <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+        </div>
+        
+      </div>
+      <div style="background: linear-gradient(to bottom, #f2f2f2, #e5f3e5, #c6e6c6);">
+            <table>
+                <tr>
+                    <th style="vertical-align: top;"><img src="AboutUslanding.png" alt="AboutUslanding" height = 500px></th>
+                    <th style="text-align: left; vertical-align: top;">
+                        <h1 style= "color: #00FA9A;">ABOUT US<br></h1>
+                        <h2 style="font-size:50px;">Freeskout is the new <br>
+                        spot for connecting with <br>
+                        Indian influencers</h2>
+                        <h2 style="font-size:15px; color: #696969">  We simplify influencer marketing by getting brands and influencers<br> 
+                        together on the same platform.</h2>
+                        <p style="color: red; display: inline;">&gt;</p><p style="color: #00FA9A; display: inline;"> Real-time notifications</p><br>
+                        <p style="color: red; display: inline;">&gt;</p><p style="color: #00FA9A; display: inline;"> All controls on your fingertips.</p><br>
+                        <p style="color: red; display: inline;">&gt;</p><p style="color: #00FA9A; display: inline;"> Highly customized filters</p>
+                    </th>
+                    <th style="vertical-align: top;">
+                        <h2 style="font-size: 60px; margin: 0;color: #00FA9A;">150K</h2><span style="font-size: 20px; margin: 0;color: #696969">Collaborations</span><br><br><br><br><br>
+                        <h2 style="font-size: 60px; margin: 0;color: #00FA9A;">50K</h2><span style="font-size: 20px; margin: 0;color: #696969">Influencers</span><br><br><br><br><br>
+                        <h2 style="font-size: 60px; margin: 0;color: #00FA9A;">180CR</h2><span style="font-size: 20px; margin: 0;color: #696969">Reach</span>
+                    </th>
+                </tr>
+            </table>
+            <table style="border-spacing: 50px;">
+                <tr>
+                    <th style="text-align: left; vertical-align: top;">Why Freeskout?<br>
+                        <p style="color: #696969">
+                            Freeskout is a free mobile application that <br>allows brands and influencers/ bloggers to<br> connect with no
+                            middlemen involved. <br>Brands can discover Indian influencers/ <br>bloggers on all social media platforms(<br> Instagram,
+                            YouTube, Zomato and more) <br>hassle-free. </p>
+                    </th>
+                    <th style="text-align: left; vertical-align: top;">How does Freeskout work?<br>
+                        <p style="color: #696969">
+                            Register your brand, set your requirements <br>- budget, social media platform, type of<br> influencer. Our
+                            algorithm will match you <br>with a list of top bloggers/Influencers in <br> India suitable for your campaign. Connect <br>
+                            to the one that suits your brand and start <br>chatting. All this ''Free of Cost''. </p>
+                    </th>
+                    <th style="text-align: left; vertical-align: top;">For Brands<br>
+                        <p style="color: #696969">No need for agencies. At Freeskout you can <br> easily chat and collaborate with the <br>influencer of your choice
+                            based on your<br> requirements. Get access to their realtime <br> market insights. </p>
+                    </th>
+                    <th style="text-align: left; vertical-align: top;">For Influencers<br>
+                        <p style="color: #696969">
+                            A one-stop influencer marketing platform <br> 
+                            in India that lets brands know about your <br> engagement and influence on social media.<br> Cut the middlemen, chat and
+                            negotiate <br> with the brands directly.</p>
+                    </th>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th style="vertical-align: top;"><img src="whyInfMarketing.png" alt="whyInfMarketing" height = 450px width="300px"></th>
+                    <th style="text-align: left;">
+                        <h1 style= "color: #00FA9A;">WHY INFLUENCER MARKETING?<br></h1>
+                                <h2 style="font-size:50px;">
+                                    Influencer marketing for maximum impact !!
+                                </h2>
+                                <h2 style="font-size:20px; color: #696969">Amplify your brand the right way with Influencers in India. Determining and targeting the right 
+                                    audience<br>is an essential part of every marketing strategy. Nevertheless, it is often a challenging
+                                    process and <br> requires a thorough understanding of your potential consumers. Influencer
+                                    marketing companies <br> enable you to surpass this step with the help of hard-working 
+                                    influencers. You just need to make sure<br>  that the influenceris related to your niche and that their 
+                                    public persona matches your brand's image.
+                                </h2>
+                            </th>
+                        </tr>
+                    </table>
+        </div>
+
+        
+        <br><br><br>
+        <div class="centered-text">
+            <h1 style="color: #00FA9A; display: inline;font-size:60px">500+</h1>
+            <h1 style="display: inline;font-size:60px"> brands onboarded</h1>
+        </div>
+        <br><br>
+        <div class="slider" style="background: linear-gradient(to bottom, #f2f2f2, #e5f3e5, #c6e6c6);">
+            <div class="slide-track">
+              <div class="slide">
+                <img src="1.png" />
+              </div>
+              <div class="slide">
+                <img src="2.png" />
+              </div>
+              <div class="slide">
+                <img src="3.png" />
+              </div>
+              <div class="slide">
+                <img src="4.png" />
+              </div>
+              <div class="slide">
+                <img src="5.png" />
+              </div>
+              <div class="slide">
+                <img src="6.png" />
+              </div>
+              <div class="slide">
+                <img src="7.png" />
+              </div>
+              <div class="slide">
+                <img src="8.png" />
+              </div>
+              <div class="slide">
+                <img src="9.png" />
+              </div>
+              <div class="slide">
+                <img src="1.png" />
+              </div>
+              <div class="slide">
+                <img src="2.png" />
+              </div>
+              <div class="slide">
+                <img src="3.png" />
+              </div>
+              <div class="slide">
+                <img src="4.png" />
+              </div>
+              <div class="slide">
+                <img src="5.png" />
+              </div>
+              <div class="slide">
+                <img src="6.png" />
+              </div>
+              <div class="slide">
+                <img src="7.png" />
+              </div>
+              <div class="slide">
+                <img src="8.png" />
+              </div>
+              <div class="slide">
+                <img src="9.png" />
+              </div>
+              <div class="slide">
+                <img src="1.png" />
+              </div>
+              <div class="slide">
+                <img src="2.png" />
+              </div>
+              <div class="slide">
+                <img src="3.png" />
+              </div>
+              <div class="slide">
+                <img src="4.png" />
+              </div>
+              <div class="slide">
+                <img src="5.png" />
+              </div>
+              <div class="slide">
+                <img src="6.png" />
+              </div>
+              <div class="slide">
+                <img src="7.png" />
+              </div>
+              <div class="slide">
+                <img src="8.png" />
+              </div>
+              <div class="slide">
+                <img src="9.png" />
+              </div>
+            </div>
+                <div class="slide-track-left">
+                  <div class="slide">
+                    <img src="11.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="12.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="13.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="14.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="15.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="16.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="17.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="18.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="19.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="11.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="12.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="13.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="14.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="15.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="16.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="17.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="18.png" />
+                  </div>
+                  <div class="slide">
+                    <img src="19.png" />
+                  </div>
+                </div>
+                <div class="slide-track">
+                    <div class="slide">
+                      <img src="20.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="21.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="22.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="23.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="25.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="26.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="27.png" />
+                    </div>
+                    <div class="slide">
+                      <img src="24.png" />
+                    </div>
+                    <div class="slide">
+                        <img src="20.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="21.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="22.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="23.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="25.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="26.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="27.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="24.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="20.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="21.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="22.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="23.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="25.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="26.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="27.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="24.png" />
+                      </div></div>
+            </div>
+
+
+            <table style="margin-left: 250px">
+                <tr>
+                    <th style="text-align: left;">
+                        <h1 style= "color: #00FA9A;">Our Blogs<br></h1>
+                        <h2 style="font-size:50px;">Read all about it!</h2>
+                        <h2 style="font-size:15px; color: #696969">  Want to learn more about the influencer<br>marketing industry?</h2>
+                        <a href="#">
+                            <button style="background-color: #00FF7F ;border-radius: 10px;height: 50px;width:100px;border-color: #00FF7F;">SEE ALL!</button>
+                        </a>
+                    </th>
+                    <th style="vertical-align: top;">             
+                        <div class="slideshow-container">
+                            <div class="mySlides fade">
+                                <div class="box" style="display: inline;">
+                                    <a href="#" style="display: inline;"><img src="28 (2).png" alt="blog2" height="500px" width="400px"></a>
+                                    
+                                </div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="box"style="display: inline;">
+                                    <a href="#"><img src="28 (3).png" alt="blog3" height="500px" width="400px"></a>
+                                </div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="box" style="display: inline;">
+                                    <a href="#" style="display: inline;"><img src="28 (4).png" alt="blog4" height="500px" width="400px"></a>  
+                                </div>
+                            </div>
+                            <div class="mySlides fade">
+                                <div class="box" style="display: inline;">
+                                    <a href="#" style="display: inline;"><img src="28 (5).png" alt="blog5" height="500px" width="400px"></a>  
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <br>
+                            
+                            <div style="text-align:center">
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            <span class="dot"></span> 
+                            <span class="dot"></span>
+                            </div>
+                        </th>
+                        <script>
+
+                            var slideIndex = 0;
+                            showSlides();
+                            
+                            function showSlides() {
+                            var i;
+                            var slides = document.getElementsByClassName("mySlides");
+                            var dots = document.getElementsByClassName("dot");
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            slideIndex++;
+                            if (slideIndex > slides.length) {slideIndex = 1}    
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                            setTimeout(showSlides, 2000); // Change image every 2 seconds
+                            }
+                            
+                            </script>
+                    
+                </tr>
+            </table>
+            <footer style="background-color: #00FF7F">
+              <div class="logo">
+                <h6 style="color: #ffffff; font-size: 15px">
+                  Get connected with us<br>on social networks!
+                </h6>
+              </div>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.youtube.com/channel/UCuq-Txz4nbPpZAjQa5GUfjQ" target="_blank">
+                    <i class="fab fa-youtube white-text"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="tw-ic" href="https://twitter.com/thefreeskoutapp" target="_blank">
+                    <i class="fab fa-twitter white-text mr-4" style="color: #ffffff;"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/freeskout-lash-technologies-private-limited/mycompany/" target="_blank">
+                    <i class="fab fa-linkedin-in white-text"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="ins-ic" href="https://www.instagram.com/freeskoutapp/" target="_blank">
+                    <i class="fab fa-instagram white-text" style="color: #ffffff;"></i>
+                  </a>
+                </li>
+              </ul>
+            </footer>
+            <div class="raindrop-animation-container">
+              <script>
+                // Number of raindrops
+                const numRaindrops = 100;
+    
+                // Function to create raindrops
+                function createRaindrops() {
+                  const animationContainer = document.querySelector(".raindrop-animation-container");
+                  const numRaindrops = 100;
+                  for (let i = 0; i < numRaindrops; i++) {
+                    const raindrop = document.createElement("div");
+                    raindrop.classList.add("raindrop");
+                    raindrop.style.top = `${Math.random() * 100}%`;
+                    raindrop.style.left = `${Math.random() * 100}%`;
+                    animationContainer.appendChild(raindrop);
+                  }
+                }
+    
+                function moveRaindrops() {
+                  const raindrops = document.querySelectorAll(".raindrop");
+                  raindrops.forEach((raindrop) => {
+                    const top = parseFloat(raindrop.style.top);
+                    if (top <= 0) {
+                      raindrop.style.top = "100%";
+                    } else {
+                      raindrop.style.top = `${top - 0.2}%`;
+                    }
+                  });
+    
+                  requestAnimationFrame(moveRaindrops);
+                }
+    
+                createRaindrops();
+                moveRaindrops();
+                </script>
+          </div>
+
+           
+            <div style="text-align: center; margin-top: 0px;">
+              <table style="text-align: center; margin-left: 180px;">
+                  <tr>
+                      <th style="vertical-align: top;">
+                          <h1 style="text-align: left; vertical-align: top; color: black;">freeskout<br></h1>
+                          <h2 style="text-align: left; vertical-align: top; font-size:15px; color: #696969">
+                              Discover brands & influencers that match your personality. <br>
+                              Connect & chat with them seamlessly. Collaborate & make<br>
+                              magic happen! Freeskout helps you do all of this, for Free!
+                          </h2>
+                      </th>
+                      <th style="text-align: left; vertical-align: top;">
+                          <h1 style="text-align: left; vertical-align: top; color: black;">
+                              WHO WE ARE!
+                              <br></h1>
+                          <h2 style="text-align: left; vertical-align: top; font-size:15px; color: #696969">
+                              Influencers
+                              <br>
+                              Brands
+                          </h2>
+                      </th>
+                      <th style="text-align: left; vertical-align: top;">
+                          <h1 style="text-align: left; vertical-align: top; color: black;">CONTACT <br></h1>
+                          <h2 style="text-align: left; vertical-align: top; font-size:15px; color: #696969">                          
+                              support@freeskout.com
+                              <br>
+                              18008339600
+                              <br>
+                              91-208 Basement,
+                              <br>
+                              Rajouri Garden,<br> New Delhi, 110027'
+                          </h2>
+                      </th>
+                  </tr>
+              </table>
+      
+              <div>
+                  <p>©2023 | <span style="color: #00FF7F">freedkout</span></p>
+                  <p style="font-size:15px; color: #696969">Privacy Policy Shipping Policy | Cancellation Policy | Terms & Conditions | How to use</p>
+              </div>
+          </div>
+      
+</body>
+</html>
